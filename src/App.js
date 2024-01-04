@@ -9,6 +9,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import UseEffect from './components/UseEffect';
 
 function App() {
   return (
@@ -33,6 +34,11 @@ function App() {
             exact
             path="/TextUtils"
             element={<TextUtils />}
+          ></Route>
+              <Route
+            exact
+            path="/UseEffect"
+            element={<UseEffect />}
           ></Route>
         </Routes>
       </div>
